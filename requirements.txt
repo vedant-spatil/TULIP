@@ -1,0 +1,14 @@
+uv
+
+colorama
+docling
+litellm
+pydantic
+//groq
+
+datasets
+transformers
+torch
+bitsandbytes
+peft
+trl
