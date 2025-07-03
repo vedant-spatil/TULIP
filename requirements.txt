@@ -12,3 +12,4 @@ torch
 bitsandbytes
 peft
 trl
+//huggingface_hub[hf_xet]

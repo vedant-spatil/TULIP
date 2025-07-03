@@ -64,7 +64,7 @@ if __name__ == "__main__":
             else:
                 print(Fore.RED + f"\nSkipping chunk {i} due to missing 'generated' key.\n" + Fore.RESET)
     
-    with open('tm1data.json','w') as f: 
+    with open('tm1_database.json','w') as f: 
         json.dump(dataset, f) 
 
 

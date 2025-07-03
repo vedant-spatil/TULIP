@@ -1,7 +1,4 @@
-Synthetic Data Generation / Generating Question Answer pairs for 
-Supervised Learning are created by manually passing a modified 
-generated prompt into ChatGpt on gpt-4 as low level models were 
-unable to prvide valid JSON and facing token limit problem.
+Synthetic Data Generation / Generating Question Answer pairs for Supervised Learning are created by manually passing a modified generated prompt into ChatGpt on gpt-4 as low level models were unable to prvide valid JSON and facing token limit problem.
 
 MODIFIED GENERATED_PROMPT :------------------------------------
 (variables = entries_num, n)
@@ -53,18 +50,15 @@ Export a valid json file with no preamble
 
 -----------------------------------------------------------------
 
-preprocessing.py was not needed here as we stored data directly 
-in question answer pairs only
+preprocessing.py was not needed here as we stored data directly in question answer pairs only
 
 -----------------------------------------------------------------
 
-instruction is more detailed version of tm1_database.json as it 
-contains context in every question.
+instruction is more detailed version of tm1_database.json as it contains context in every question.
 I'm not doing that here to save time.
 
 ----------------------------------------------------------------
 
-For GPU, Nicholas use Runpod.io
+I used train.ipynb to leverage the T4 GPU of google colab but train.py also works fine (if you have CUDA setup then change the commented code)
 
 ----------------------------------------------------------------
-
