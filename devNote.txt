@@ -62,3 +62,19 @@ I'm not doing that here to save time.
 I used train.ipynb to leverage the T4 GPU of google colab but train.py also works fine (if you have CUDA setup then change the commented code)
 
 ----------------------------------------------------------------
+
+We obtain adapter_config.json, adapter_model.safetytensors and other metadeta,
+we use it to create a model using ollama with the file Modelfile and command
+
+ollama create <name> -f Modelfile
+
+----------------------------------------------------------------
+
+You can see the model using 
+    >> ollama list
+
+and use the model with the command
+    >> ollama run <name>
+
+----------------------------------------------------------------
+
