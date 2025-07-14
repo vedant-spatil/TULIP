@@ -4,7 +4,6 @@ colorama
 docling
 litellm
 pydantic
-//groq
 
 datasets
 transformers
@@ -12,4 +11,4 @@ torch
 bitsandbytes
 peft
 trl
-//huggingface_hub[hf_xet]
+huggingface_hub[hf_xet]

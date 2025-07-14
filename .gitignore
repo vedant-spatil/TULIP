@@ -213,3 +213,5 @@ devNote.txt
 workspace
 adapter_model_TinyLlama.safetensors
 adapter_model.safetensors
+checkpoints
+train.py
